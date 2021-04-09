@@ -1,0 +1,175 @@
+body{
+    background-image: url(../img/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #EFEFEF;
+    background-attachment: fixed;
+}
+*{
+    font-size: 1.3rem;
+    font-family: 'Acme', sans-serif;
+}
+a{
+    color:#E96767 ;
+}
+a:hover{
+    color: #E96767;
+}
+#menu{
+    position: fixed;
+    top: 0;
+}
+#downloadcv{
+    color: #E96767;
+}
+.container {
+    padding: 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+    background-color: #EFEFEF;
+    border: lightgray solid 1px;
+}
+.container * {
+    margin: 0;
+    padding: 0;
+}
+.content{
+    padding: 7%;
+}
+#vignette {
+    width: 40%;
+    height: auto;
+
+}
+#presentation{
+    display: flex;
+    flex-direction: row;
+    border-top: none;
+    align-items: center;
+}
+#presentation>:nth-child(1){
+    margin-right: 5%;
+}
+#presentation>:nth-child(2){
+    width: 100%;
+}
+#presentation h1{
+    font-size: 9rem;
+}
+#presentation h5{
+    font-size: 4rem;
+}
+ul{
+    list-style-type: none;
+}
+.listes{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content:space-between ;
+}
+#presentation h4{
+    margin-top: 8%;
+}
+section{
+    border-bottom: solid #E96767 20px;
+}
+#cvdl{
+    position: fixed;
+    bottom: 2%;
+    left: 0.2%;
+    background: none;
+    border:#E96767 solid 1px ;
+    border-radius: 6%;
+    color: #E96767;
+}
+h5{
+    margin-bottom: 50px;
+}
+.competences {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+.competences h5{
+    padding: 10%;
+}
+.competences h5{
+    position: relative;
+}
+.competences h5::after{
+    content: "";
+    display: block;
+    width:0;
+    height: 5px;
+    background-color: #E96767;
+    transition: width 1s;
+}
+h5.onestar::after{
+    width: 50%;
+}
+h5.twostar::after{
+    width: 100%;
+}
+h5.threestar::after{
+    width: 150%;
+}
+h5.fourstar::after{
+    width: 200%;
+}
+h5.fifthstar::after{
+    width: 250%;
+}
+#presentation > div > h5{
+    color: #E96767;
+}
+#experience>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+#experience{
+    text-align: center;
+}
+#experiencedetails>div{
+    text-align: left;
+    margin-bottom: 5%;
+    color: #EFEFEF;
+}
+#experiencedetails>div.colortext{
+    color: black;
+}
+#gifmodif{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+#gifmodif img{
+    width: 30%;
+    height: auto;
+}
+#parcours div{
+    margin-top: 2%;
+    color: #efefef;
+}
+#parcours h3{
+    text-align: center;
+}
+#parcours .colortext{
+    color: black;
+}
+.prortfo img:hover{
+    width: 31%;
+    transition: 1s;
+    border: #E96767 solid 1px;
+}
+.prortfo img{
+    width: 30%;
+    height: auto;
+}
