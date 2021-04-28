@@ -53,7 +53,7 @@ $(document).ready(function () {
             $('#experiencedetails').children().removeClass('colortext');
         }
     })
-
+    largeur()
     $(window).on('resize',largeur)
 
     function largeur() {
