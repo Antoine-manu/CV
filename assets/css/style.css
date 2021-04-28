@@ -17,6 +17,7 @@ a:hover{
 }
 #menu{
     position: fixed;
+    margin: 1%;
     top: 0;
 }
 #downloadcv{
@@ -173,3 +174,30 @@ h5.fifthstar::after{
     width: 30%;
     height: auto;
 }
+
+@media (max-width: 800px) { 
+    .competences{
+        flex-direction: column;
+    }
+    h5.onestar::after{
+        width: 25%;
+    }
+    h5.twostar::after{
+        width: 50%;
+    }
+    h5.threestar::after{
+        width: 75%;
+    }
+    h5.fourstar::after{
+        width: 100%;
+    }
+    h5.fifthstar::after{
+        width: 125%;
+    }
+    #presentation{
+        flex-direction:column ;
+    }
+    #presentation h1{
+        font-size: 6rem;
+    }
+ }

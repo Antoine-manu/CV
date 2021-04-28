@@ -53,4 +53,16 @@ $(document).ready(function () {
             $('#experiencedetails').children().removeClass('colortext');
         }
     })
+
+    $(window).on('resize',largeur)
+
+    function largeur() {
+        var Lscreen=$(window).width();
+        console.log(Lscreen);
+        if(Lscreen<801){
+            $('#portfolio').removeClass('row')
+            $('#portfolio').addClass('cols')
+        }
+    }
+    
 });
