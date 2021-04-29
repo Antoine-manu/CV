@@ -200,4 +200,7 @@ h5.fifthstar::after{
     #presentation h1{
         font-size: 6rem;
     }
+    #gifmodif{
+        flex-direction: column;
+    }
  }

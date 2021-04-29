@@ -60,8 +60,8 @@ $(document).ready(function () {
         var Lscreen=$(window).width();
         console.log(Lscreen);
         if(Lscreen<801){
-            $('#portfolio').removeClass('row')
-            $('#portfolio').addClass('cols')
+            $('.modiffolio').removeClass('row')
+            $('.modiffolio').addClass('cols')
         }
     }
     
